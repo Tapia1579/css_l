@@ -3,13 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tag link fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <!-- tag enlace css-->
      <link rel="stylesheet" href="css/styles.css">
     <title>CSS I</title>
 </head>
 <body>
+    <header>
+        <h1>LINK CSS</h1>
+        <p>Índice alfabético de propiedades y valores: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Properties">click here</a></p>
+    </header>
+
     <main>
-        <p>Hola <samp>mundo</samp>  <small>que hace :3</small></p>
+        <!-- En este ejemplo trabajamos con METODLOGIA BEM HTML-->
+        <section class="color">
+            <h2>Color</h2>
+            <div class="color__p">
+                <p>Hola <samp class="color__p--s">mundo</samp>  <small class="color__p--sm">que hace :3</small></p>
+            </div>
+        </section>
+        
+        <section class="texto">
+            <h2>Texto</h2>
+            <div class="texto__p">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sint eos numquam officiis? Deleniti consectetur culpa saepe iure ad natus alias doloribus adipisci odio dolorem repellendus, impedit magni in autem?</p>
+                
+                <p class="texto__p--a">HOLA YO SOY UN TEXTO QUE MUESTRA LAS PROPIEDAS Y VALORES DEL SELECTOR EN CSS <br> ESTO ES UN SALTO DE LINEA GENERADO POR A_TEs</p>
+            </div>
+
+        </section>
     </main>
     
 </body>

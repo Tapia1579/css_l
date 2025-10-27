@@ -1,15 +1,57 @@
-p {
+/* p {
     color: blue;
     background-color: chocolate;
-    /* etiquetas de color */
+    /* etiquetas de color /
 }
 
 samp {
     color: rgb(54,34,78);
-    /* rgb */
+    /* rgb /
 }
 
 small {
     color: #474298;
-    /* hexadecimal */
+    / hexadecimal /
+} */
+
+/* METODOLOGIA TIPO BEM CSS */
+.color__p {
+    /*font family tipografia de web (texto) */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #0818f8ec;
+
+    .color__p--s {
+    color: #e9c009ec;
+    }
+
+    .color__p--sm {
+        color: chartreuse;
+    }
 }
+
+header {
+    a {
+        color: #f81008ec;
+        text-decoration: none;
+        text-shadow: 10px 5px 15px #000;
+    } 
+}
+
+.texto__p {
+    color: #f6fcf6ec;
+    background-color: rgb(247, 4, 174);
+    font-family: 'Playfair Display' ,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+
+    .texto__p--a {
+        color: black;
+        text-align: center;/*REVISAR VALORES DE CADA PROPIEDAD*/
+        letter-spacing: 2;/**/
+        text-decoration: underline;/**/
+        text-transform: lowercase;
+        line-height: 3;
+        word-spacing: 20px;
+    }
+}
+
+
