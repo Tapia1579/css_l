@@ -1,3 +1,15 @@
+html {
+    font-size: 10px;/*para utilizar la unidad rem --> relativos al font-size del html */
+}
+
+main {
+    width: 90%;
+    background-color: aquamarine;
+    margin: auto;
+    font-size: 15px;/*para utilizar la unidad em --> relativos al font-size del padre*/
+}
+
+
 /* p {
     color: blue;
     background-color: chocolate;
@@ -51,6 +63,31 @@ header {
         text-transform: lowercase;
         line-height: 3;
         word-spacing: 20px;
+    }
+}
+
+
+.unidades {
+
+    .unidades__a {
+        background-color: crimson;
+        width: 700px;
+        height: 400px;
+        border: 2px solid blue;
+        margin-bottom: 60px;
+        font-size: 3em;
+        
+    }
+
+    .unidades__b {
+        width: 70%;/*Estos % de son correspondientes al % relacionado con el (%) del padre en este caso es el main*/
+        height: 35%;
+        background-color: darkmagenta;
+        border: 10px groove greenyellow;
+        text-align: center;
+        text-decoration: overline;
+        margin: auto;
+        font-size: 0.5rem;
     }
 }
 
